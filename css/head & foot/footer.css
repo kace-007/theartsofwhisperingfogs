@@ -1,0 +1,112 @@
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  padding: 1rem;
+  padding-bottom: 0.1rem;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 1rem;
+}
+
+/* Contact Styles */
+contact {
+  display: flex;
+  flex-direction: column;
+}
+
+contact h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+contact a {
+  display: block;
+  margin-bottom: 0.625rem;
+  color: lightgray;
+  text-decoration: none;
+}
+
+/* Follow Styles */
+follow {
+  text-align: center;
+}
+
+follow h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+follow ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+follow li {
+  margin: 0 0.625rem;
+}
+
+follow li a {
+  display: block;
+  padding: 0.625rem;
+  color: #fff;
+  text-decoration: none;
+  border: 0.0625rem solid #fff;
+  border-radius: 50%;
+}
+
+
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+footer p {
+  text-align: center;
+  color:#bbb;
+  font-size: small;
+}
+
+contact a:hover {
+  color: white;
+}
+
+
+follow li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.footer-top {
+  padding-bottom: 1rem;
+}
+
+  /* ---------------------------------------------------------------------Styles for tablets------------------------------------------------------------------- */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Insert tablet styles here */
+  .footer-top {
+    color: #fff;
+    display: inline-flex;
+  }
+}
+
+
+
+/* ---------------------------------------------------------- Styles for desktops ---------------------------------------------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+  /* Style the footer */
+.footer-top {
+  color: #fff;
+  display: inline-flex;
+}
+
+/* Style the contact section in the footer */
+
+
+
+}

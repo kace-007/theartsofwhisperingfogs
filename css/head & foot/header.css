@@ -1,0 +1,76 @@
+/* For desktop resolution */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 60px; /* Adjust the logo size as needed */
+  height: auto;
+}
+
+.logo-text {
+  width: auto;
+  height: 50px;
+
+}
+
+.nav_links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_links li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  transition: .3s ease; /* Add transition for the color property */
+}
+
+/* Hover effect */
+.nav_links li a:hover {
+  color: #A27B5C;
+  font-size: larger;
+  font-weight: bolder; /* Change the color to your desired hover color */
+}
+
+
+.hamburger {
+ display: none;
+}
+
+/* For tablet and mobile resolutions */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav_links {
+    display: none;
+  }
+
+  /* Hamburger menu icon */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  /* Show the navigation links when hamburger menu is active */
+  .show_nav {
+    display: flex;
+    flex-direction: column;
+  }
+}

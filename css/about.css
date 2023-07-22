@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9998rem;
+    line-height: 1.5;
+    background-color: #DCD7C9;
+  }
+  
+  /* About hero 1 styling */
+
+  h1 {
+    padding: 0%;
+    margin: 0%;
+      font-size: 80px;
+      font-family: 'Euphoria Script', cursive;
+  }
+
+  .about-hero-1 {
+    background-color: #AFA090;
+    padding: 3.1252rem;
+    text-align: center;
+  }
+  
+  .about-hero-1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-hero-1 img {
+    width: 100%;
+    max-width: 31.2502rem;
+    margin-bottom: 1.2502rem;
+    border-radius: 12px;
+  }
+  
+  .about-hero-1 p {
+    font-size: 1.325rem;
+    line-height: 1.6;
+    max-width: 50.0002rem;
+  }
+  
+  /* About hero 2 styling */
+  .about-hero-2 {
+    background-color: #f2f2f2;
+    padding: 3.1252rem;
+    text-align: center;
+  }
+  
+  .about-hero-2 h2 {
+    padding: 0%;
+    margin: 0%;
+    font-size: 80px;
+    font-family: 'Euphoria Script', cursive;
+  }
+  
+  .about-hero-2 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .about-hero-2 img {
+    width: 100%;
+    max-width: 31.2502rem;
+    margin-bottom: 1.2502rem;
+    border-radius: 12px;
+  }
+  
+  .about-hero-2 p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    max-width: 50.0002rem;
+  }
+
+  footer {
+    margin: 1rem;
+  }
+  
+/*------------------------------------------*/
+
+@media (min-width: 1024px) {
+  /* Styles for desktop screens */
+
+  .about-hero-2 {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-hero-1 > div{
+    padding: 5%;
+  }
+
+  .mission-written {
+    padding-right: 10%;
+  }
+
+  .about-hero-1 {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+}
