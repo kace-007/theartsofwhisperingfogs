@@ -118,7 +118,7 @@ h2{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   /* Your CSS rules for smaller screens go here */
   body {
     margin: 0;
