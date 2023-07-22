@@ -133,3 +133,22 @@ footer {
     padding: 1rem;
   }
 }
+
+@media (max-width: 650px) {
+
+  /* Your CSS rules for smaller screens go here */
+  h1 {
+    font-size: 42px;
+  }
+
+  .about-hero-1 p , .about-hero-2 p {
+    font-size: 0.9rem;
+  }
+  .about-hero-1 {
+    padding: 1rem;
+  }
+
+  .about-hero-2 {
+    padding: 1rem;
+  }
+}
