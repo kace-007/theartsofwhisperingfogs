@@ -81,8 +81,7 @@ header {
   .hamburger {
     display: block;
     cursor: pointer;
-    padding: 10px;
-    font-size: 200%;
+    font-size: 180%;
   }
 
   /* Show the navigation links when hamburger menu is active */
