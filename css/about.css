@@ -40,14 +40,11 @@ h1 {
 
 /* About hero 1 styling */
 
-
 .about-hero-1 {
   background-color: #AFA090;
   padding: 1.5rem;
   text-align: center;
 }
-
-
 
 
 /* About hero 2 styling */
@@ -66,6 +63,15 @@ footer {
 
 @media (min-width: 1024px) {
   /* Styles for desktop screens */
+
+  .about-hero-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    gap: 3%;
+  }
 
   .about-hero-2 {
     display: inline-flex;
