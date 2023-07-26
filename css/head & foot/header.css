@@ -52,7 +52,16 @@ header {
     justify-content: center;
     align-items: center;
   }
-
+  .logo {
+    width: 48px; /* Adjust the logo size as needed */
+    height: auto;
+  }
+  
+  .logo-text {
+    width: auto;
+    height: 40px;
+  
+  }
   .AOWF{
     display: inline-flex;
     justify-content: center;
